@@ -1,0 +1,23 @@
+package helloworld1.control;
+
+public class StudentGrade3 {
+    public static void main(String[] args) {
+        int grade = 30;
+
+        if (!(grade < 40))
+            System.out.println("Passed");
+        else
+            System.out.println("Failed");
+    }
+}
+
+package helloworld1.control;
+
+public class ControlStatement {
+    public static void main(String[] args) {
+        int intNo = 20;
+
+        if (intNo == 10)
+            System.out.println("The value of intNo is " + intNo);
+    }
+}
